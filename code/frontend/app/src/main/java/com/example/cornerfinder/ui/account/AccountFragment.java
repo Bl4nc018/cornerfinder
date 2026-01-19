@@ -65,7 +65,7 @@ public class AccountFragment extends Fragment {
 // una lista.
         JsonArrayRequest request = new JsonArrayRequest(
                 Request.Method.GET,
-                "https://raw.githubusercontent.com/Bl4nc018/Proyectos-2-trimestre/main/saved_places.json",
+                "https://raw.githubusercontent.com/Bl4nc018/cornerfinder/refs/heads/main/code/recursos/saved_places.json",
                 null,
                 response -> {
                     List<AccountData> allTheSavedPlaces = new ArrayList<>();

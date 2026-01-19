@@ -46,7 +46,7 @@ public class SummerModeFragment extends Fragment {
         // Tras identificar el RecyclerView, pasamos a realizar la petición para obtener la info.
         JsonArrayRequest request = new JsonArrayRequest(
                 Request.Method.GET,
-                "https://raw.githubusercontent.com/Bl4nc018/cornerfinder/refs/heads/main/recursos/beaches.json",
+                "https://raw.githubusercontent.com/Bl4nc018/cornerfinder/refs/heads/main/code/recursos/beaches.json",
                 null,
                 new Response.Listener<JSONArray>() {
 

@@ -95,7 +95,7 @@ public class SavedPlacesFragment extends Fragment {
         // Crear una solicitud JSON de matriz para obtener los lugares guardados
         JsonArrayRequest request = new JsonArrayRequest
                 (Request.Method.GET,
-                        "https://raw.githubusercontent.com/Bl4nc018/Proyectos-2-trimestre/main/saved_places.json",
+                        "https://raw.githubusercontent.com/Bl4nc018/cornerfinder/refs/heads/main/code/recursos/saved_places.json",
                         null,
                         new Response.Listener<JSONArray>() {
                             @Override
