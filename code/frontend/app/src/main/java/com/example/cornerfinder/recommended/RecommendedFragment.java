@@ -88,7 +88,7 @@ public class RecommendedFragment extends Fragment {
         this.requestQueue = Volley.newRequestQueue(getContext());
         JsonArrayRequest request = new JsonArrayRequest
                 (Request.Method.GET,
-                        "https://raw.githubusercontent.com/Bl4nc018/Proyectos-2-trimestre/main/saved_places.json",//Server.name + "/user/flights",
+                        "https://raw.githubusercontent.com/Bl4nc018/cornerfinder/refs/heads/main/recursos/beaches.json",//Server.name + "/user/flights",
                         null,
                         new Response.Listener<JSONArray>() {
                             @Override
